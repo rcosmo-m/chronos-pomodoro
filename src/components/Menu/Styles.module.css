@@ -5,7 +5,7 @@
   gap: 1.6em;
 }
 
-.menuLink{
+.menuLink {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -17,7 +17,7 @@
   border-radius: 0.8rem;
 }
 
-.menuLink:hover{
+.menuLink:hover {
   filter: brightness(70%);
 }
 

@@ -6,7 +6,7 @@
   padding-top: 3.2rem;
 }
 
-.logoLink{
+.logoLink {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,7 +19,7 @@
   transition: all 0.1s ease-in-out;
 }
 
-.logoLink:hover{
+.logoLink:hover {
   filter: brightness(70%);
 }
 
