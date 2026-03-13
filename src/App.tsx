@@ -29,27 +29,29 @@ export function App() {
       <Container>
         <form className='form'>
           <div className='formRow'>
-            <DefaultInput labeltext='Tarefa' id='myinput' type='text' placeholder='Digite sua Tarefa' />
+            <DefaultInput
+              labeltext='Tarefa'
+              id='myinput'
+              type='text'
+              placeholder='Digite sua Tarefa'
+            />
           </div>
 
-          <div className='formRow'>
-          
-          </div>
+          <div className='formRow'></div>
 
           <div className='formRow'>
             <Cycles />
           </div>
 
           <div className='formRow'>
-            <DefaultButton icon={<PlayCircleIcon/>} />
+            <DefaultButton icon={<PlayCircleIcon />} />
           </div>
         </form>
       </Container>
-      
+
       <Container>
         <Footer />
       </Container>
-
     </>
   );
 }
